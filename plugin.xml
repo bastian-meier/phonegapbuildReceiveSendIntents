@@ -26,14 +26,14 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/*/application">
-      <activity android:name=".SendActivity" android:launchMode="singleTop" android:clearTaskOnLaunch="true">
+    <config-file target="AndroidManifest.xml" parent="/*/application/activity">
+      <!--<activity android:name=".SendActivity" android:launchMode="singleTop" android:clearTaskOnLaunch="true">-->
         <intent-filter>
           <action android:name="android.intent.action.SEND" />
           <category android:name="android.intent.category.DEFAULT" />
           <data android:mimeType="image/*" />
         </intent-filter>
-      </activity>
+      <!--</activity>-->
     </config-file>
     
   </platform>
