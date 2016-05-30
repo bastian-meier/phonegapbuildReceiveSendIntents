@@ -27,7 +27,7 @@
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/*/application">
-      <activity android:name=".SendActivity" android:launchMode="singleTop" android:clearTaskOnLaunch="false">
+      <activity android:name=".SendActivity" android:launchMode="singleTop" android:clearTaskOnLaunch="true">
         <intent-filter>
           <action android:name="android.intent.action.SEND" />
           <category android:name="android.intent.category.DEFAULT" />
